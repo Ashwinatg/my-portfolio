@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Resume.css';
 
 const Resume = () => {
   const [resumeData, setResumeData] = useState(null);
@@ -10,9 +11,11 @@ const Resume = () => {
   }, []);
 
   return (
-    <section>
-      <h2>Resume</h2>
-      <p>{resumeData}</p>
+    <section className="resume">
+      <div className="resume-card">
+        <h2>Resume</h2>
+        <p>{resumeData || 'Loading...'}</p>
+      </div>
     </section>
   );
 };

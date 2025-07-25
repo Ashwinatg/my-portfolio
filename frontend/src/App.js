@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Resume />
+      <main style={{ flex: 1 }}>
+        <Resume />
+      </main>
       <Footer />
     </div>
   );

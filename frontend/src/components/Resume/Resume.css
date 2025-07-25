@@ -1,0 +1,21 @@
+
+.resume {
+  padding: 40px 0;
+}
+
+.resume-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.resume-card p {
+  color: #666;
+  line-height: 1.6;
+}
